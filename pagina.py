@@ -42,7 +42,7 @@ def area_chat():
     contenedorDelChat = st.container(height=400, border=True)
     with contenedorDelChat:
         st.markdown("### Chat")
-        st.chat_message("system", avatar="🥸​")
+        st.chat_message("system", avatar="🤖")
         st.markdown("Hola, soy tu asistente virtual. ¿En qué puedo ayudarte hoy?")
         mostrar_historial()
 
