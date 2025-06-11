@@ -55,11 +55,11 @@ if __name__ == "__main__":
     area_chat()
     mensaje = st.chat_input("Escribí tu mensaje:")
 
-    if mensaje:
-        actualizar_historial("user", mensaje, None)
-        chat_completo = configurar_modelo(clienteUsuario, elegituIA, mensaje)
-        actualizar_historial("assistant", chat_completo, "🗿​")
-        st.rerun()
+if mensaje:
+    actualizar_historial("user", mensaje, "🙂")
+    chat_completo = configurar_modelo(clienteUsuario, elegituIA, mensaje)
+    actualizar_historial("assistant", chat_completo, "🤖")
+    st.rerun()
 
 def generar_respuesta(chat_completo):
     respuesta_completa = ""
