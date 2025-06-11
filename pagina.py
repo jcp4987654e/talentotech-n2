@@ -35,7 +35,8 @@ def actualizar_historial(rol, contenido, avatar):
 
 def mostrar_historial():
     for mensaje in st.session_state.mensajes:
-        with st.chat_message(mensaje["role"], avatar=mensaje["avatar"]):
+        avatar = mensaje["avatar"] if mensaje["avatar"] is not None else "🙂"
+        with st.chat_message(mensaje["role"], avatar=avatar):
             st.markdown(mensaje["content"])
 
 def area_chat():
