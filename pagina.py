@@ -3,7 +3,7 @@ import groq
 
 st.set_page_config(page_title="mi primera pagina web con python", page_icon="😎")
 
-MODELOS = ["llama3-8b-8192", "llama3-70b-8192", "mixtral-8x7b-32768"]
+MODELOS = ["llama3-8b-8192", "llama3-70b-8192"]
 
 def configurar_pagina():
     st.title("pagina chatbot")
