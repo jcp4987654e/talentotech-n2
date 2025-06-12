@@ -1,7 +1,7 @@
 [theme]
 base="light"
-primaryColor="#a1c9f4"
-backgroundColor="#2d2a4c"
-secondaryBackgroundColor="#4f4a7d"
-textColor="#e6e6fa"
+primaryColor="#74acdf"           # Celeste bandera
+backgroundColor="#ffffff"        # Blanco
+secondaryBackgroundColor="#e5f6fd" # Celeste muy claro
+textColor="#003366"              # Azul oscuro para contraste
 font="sans serif"
